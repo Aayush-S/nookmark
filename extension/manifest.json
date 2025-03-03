@@ -3,7 +3,8 @@
   "description": "Save articles to Nookmark",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["http://localhost:5000/*"],
   "action": {
     "default_popup": "popup.html"
   }
